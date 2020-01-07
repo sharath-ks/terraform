@@ -22,3 +22,12 @@ resource "azurerm_resource_group" "myterraformgroup2" {
         environment = "Terraform Demo"
     }
 }
+
+resource "azurerm_resource_group" "myterraformgroup9" {
+    name     = "myResourceGroup5"
+    location = "eastus"
+
+    tags = {
+        environment = "Terraform Demo"
+    }
+}
